@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "create": "node scripts/create.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "neo4j-driver": "^4.3.3",
+    "neode": "^0.4.7"
+  }
+}
