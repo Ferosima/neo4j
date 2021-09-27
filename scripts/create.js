@@ -21,5 +21,6 @@ Promise.all([
     station_1.relateTo(station_3, "connect", { distance: 5 });
     station_3.relateTo(work, "connect", { distance: 1 });
   })
-  .then(console.log("CREATED"));
+  .then(console.log("CREATED"))
+  .catch((err) => console.log("ERROR MESSAGE", err));
 process.exit();
