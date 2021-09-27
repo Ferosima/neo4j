@@ -22,3 +22,4 @@ Promise.all([
     station_3.relateTo(work, "connect", { distance: 1 });
   })
   .then(console.log("CREATED"));
+process.exit();
