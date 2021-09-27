@@ -23,4 +23,3 @@ Promise.all([
   })
   .then(console.log("CREATED"))
   .catch((err) => console.log("ERROR MESSAGE", err));
-process.exit();

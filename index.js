@@ -28,4 +28,3 @@ instance
   .then((res) => {
     console.log(getPath(res));
   });
-process.exit();
